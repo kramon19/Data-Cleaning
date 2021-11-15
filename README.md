@@ -1,4 +1,4 @@
-# Data-Cleaning
+# Data-Cleaning in MySQL
 
 Used MySQL to clean the Nashville Housing Dataset. This project focuses on removing duplicates, populating street addresses, splitting the city and state from 
 addresses, and having the values in a consistent format. Skills used in this project are:
