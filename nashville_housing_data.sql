@@ -54,7 +54,7 @@ UPDATE housing
 SET PropertySplitAddress = SUBSTRING(PropertyAddress, 1, LOCATE(',', PropertyAddress) -1 );
 
 ALTER TABLE housing
-Add PropertySplitCity TEXT;
+ADD PropertySplitCity TEXT;
 
 UPDATE housing
 SET PropertySplitCity = SUBSTRING(PropertyAddress, LOCATE(',', PropertyAddress) + 1 , LENGTH(PropertyAddress));
